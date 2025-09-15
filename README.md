@@ -1,65 +1,76 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/YHSq4TPZ)
-# To-Do App – Preliminary Assignment Submission
-⚠️ Please complete **all sections marked with the ✍️ icon** — these are required for your submission.
+# React Todo App
 
-👀 Please Check ASSIGNMENT.md file in this repository for assignment requirements.
+A modern, full-featured Todo application built with React, featuring user authentication, persistent storage, and multiple views.
 
 ## 🚀 Project Setup & Usage
-**How to install and run your project:**  
-✍️  
-Example (replace with your actual steps)  
-- `npm install`  
-- `npm start`
 
-## 🔗 Deployed Web URL or APK file
-✍️ [Paste your link here]
+**How to install and run your project:**
+- `npm install`
+- `npm run dev`
 
+## 🔗 Deployed Web URL
+[Paste your deployed link here]
 
 ## 🎥 Demo Video
-**Demo video link (≤ 2 minutes):**  
-📌 **Video Upload Guideline:** when uploading your demo video to YouTube, please set the visibility to **Unlisted**.  
-- “Unlisted” videos can only be viewed by users who have the link.  
-- The video will not appear in search results or on your channel.  
-- Share the link in your README so mentors can access it.  
-
-✍️ [Paste your video link here]
-
+[Paste your demo video link here]
 
 ## 💻 Project Introduction
 
 ### a. Overview
-
-✍️ [Write your content here]
+This is a comprehensive Todo application that provides users with a complete task management solution. The app features user authentication, multiple views (Today, Upcoming, Calendar, Lists), persistent storage, and advanced features like recurring tasks and notifications.
 
 ### b. Key Features & Function Manual
+- **User Authentication**: Login/Register system with user-specific data isolation
+- **CRUD Operations**: Create, read, update, and delete tasks and lists
+- **Multiple Views**: Today, Upcoming, Calendar, List-specific, and Sticky Wall views
+- **Persistent Storage**: All data is saved locally and persists between sessions
+- **Recurring Tasks**: Support for daily, weekly, monthly, and yearly recurring tasks
+- **Notifications**: Browser notifications for upcoming deadlines and overdue tasks
+- **Time Management**: Due dates, times, and overdue detection
+- **List Management**: Create and manage custom task lists with colors
 
-✍️ [Write your content here, explain about your app's functions]
-
-### c. Unique Features (What’s special about this app?) 
-
-✍️ [Write your content here]
+### c. Unique Features
+- **User-specific data isolation**: Each user's data is completely separate
+- **Advanced recurring task system**: Automatically generates new instances
+- **Smart notifications**: 1-hour reminders and overdue alerts
+- **Multiple view modes**: Calendar, list-based, and time-based organization
+- **Responsive design**: Works on desktop and mobile devices
 
 ### d. Technology Stack and Implementation Methods
+- **Frontend**: React 18 with Vite
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Storage**: LocalStorage for persistence
+- **Authentication**: Custom user management system
+- **State Management**: React hooks (useState, useEffect)
 
-✍️ [Write your content here]
-
-### e. Service Architecture & Database structure (when used)
-
-✍️ [Write your content here]
+### e. Service Architecture & Database structure
+- **Client-side only**: No backend server required
+- **LocalStorage**: User data stored in browser with user-specific keys
+- **Component-based architecture**: Modular React components
+- **Event-driven notifications**: Browser notification API integration
 
 ## 🧠 Reflection
 
 ### a. If you had more time, what would you expand?
-
-✍️ [Write your content here]
-
+- Add cloud synchronization with a backend service
+- Implement task sharing and collaboration features
+- Add more notification customization options
+- Create mobile app versions
+- Add data export/import functionality
 
 ### b. If you integrate AI APIs more for your app, what would you do?
-
-✍️ [Write your content here]
-
+- Smart task categorization and tagging
+- Intelligent deadline suggestions based on task complexity
+- Automated task prioritization
+- Natural language task creation
+- Smart recurring task pattern recognition
 
 ## ✅ Checklist
-- [ ] Code runs without errors  
-- [ ] All required features implemented (add/edit/delete/complete tasks)  
-- [ ] All ✍️ sections are filled  
+- [x] Code runs without errors
+- [x] All required features implemented (add/edit/delete/complete tasks)
+- [x] User authentication system
+- [x] Persistent storage
+- [x] Multiple views
+- [x] Time/date handling
+- [x] Support for 20+ items
